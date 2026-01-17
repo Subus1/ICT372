@@ -57,6 +57,7 @@ public class HomeAct extends AppCompatActivity {
         btnSearch.setOnClickListener(v -> startActivity(new Intent(HomeAct.this, SearchAct.class)));
         btnCart.setOnClickListener(v -> {
             // placeholder for cart
+            NavigationManager.goToCart(HomeAct.this);
         });
     }
 }
