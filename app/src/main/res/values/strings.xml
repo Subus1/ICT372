@@ -8,4 +8,9 @@
     <string name="title_details">Product Details</string>
     <string name="title_search">Search Products</string>
     <string name="title_register">Register User</string>
+    <string name="no_account_register_here">No account? Register here!</string>
+    <string name="login">Login</string>
+    <string name="welcome_to_fashionista">Welcome to fashionista!</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_username">Enter username</string>
 </resources>
