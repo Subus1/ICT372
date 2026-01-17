@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Shop</string>
+    <string name="title_cart">Shopping Cart</string>
+    <string name="title_checkout">Checkout</string>
+    <string name="title_home">Marketplace</string>
+    <string name="title_login">Member Login</string>
+    <string name="title_history">Order History</string>
+    <string name="title_details">Product Details</string>
+    <string name="title_search">Search Products</string>
+    <string name="title_register">Register User</string>
+</resources>

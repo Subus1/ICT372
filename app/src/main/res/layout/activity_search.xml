@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/btnBack"
+        android:text="Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Page Title -->
+    <TextView
+        android:text="Search Products"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"/>
+
+    <!-- Search Input -->
+    <EditText
+        android:id="@+id/edtSearch"
+        android:hint="Enter product name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Search Button -->
+    <Button
+        android:id="@+id/btnSearch"
+        android:text="Search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Search Result Text -->
+    <TextView
+        android:id="@+id/txtResult"
+        android:text=""
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
