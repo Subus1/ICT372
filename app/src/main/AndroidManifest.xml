@@ -17,12 +17,12 @@
             android:name=".RegAct"
             android:exported="false" />
         <activity
-            android:name=".LoginAct"
+            android:name=".HomeAct"
             android:exported="true" />
 
         <!-- Task 2: User Experience (YOUR TASK) -->
         <activity
-            android:name=".HomeAct"
+            android:name=".LoginAct"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
